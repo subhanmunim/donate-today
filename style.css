@@ -189,7 +189,6 @@ h1 {
 
 
 
-
 #help {
 
     justify-content: center;
@@ -240,4 +239,60 @@ h1 {
 
 .help-item p {
     color: #cbcbcb;
+}
+
+#newsletter {
+    padding: 5% 4%;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter-box {
+    padding: 6% 2%;
+    width: 100%;
+    margin: 0% 15%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #FFF4D6;
+    align-items: center;
+}
+
+.newsletter-box a {
+
+    font-weight: 500;
+    font-size: 18px;
+    background: #FF5959;
+    color: white;
+    text-decoration: none;
+    padding: 16px 50px;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -5px;
+    border: 2px solid #FF5959;
+    background: #D9D9D9;
+    color: #FF5959;
+}
+
+.newsletter-box a {
+    background: tomato;
+    color: white;
+    border: 1px solid #FF5959;
+}
+
+.newsletter-box input {
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #AA9F9F;
+    background: #D9D9D9;
+    padding: 20px 60px 18px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-box input:focus {
+    outline: none;
+    color: tomato;
 }
