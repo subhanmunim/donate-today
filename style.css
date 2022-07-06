@@ -18,7 +18,7 @@ h1 {
     text-align: center;
     color: white;
     font-weight: 700;
-    padding: 10px 40px;
+    padding: 10px 50px;
     border-radius: 5px;
 }
 
@@ -63,13 +63,11 @@ h1 {
     justify-content: center;
     padding: 5% 20%;
     text-align: center;
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0));
 
 }
 
-.bg-overlay {
-    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
 
-}
 
 .hero-heading {
     color: white;
@@ -118,7 +116,6 @@ h1 {
     color: #FF5959;
 }
 
-
 .custom-amount {
     margin-bottom: 30px;
 }
@@ -133,7 +130,7 @@ h1 {
 }
 
 #donate-plan {
-    padding: 5% 10%;
+    padding: 0% 10%;
 }
 
 .item-padding {
@@ -161,4 +158,86 @@ h1 {
 #education {
     background: #FFF4D6;
     border: 1px solid #dfaa1785;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 5%;
+}
+
+.half-width {
+    width: 100%;
+}
+
+.half-width img {
+    width: 95%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.half-width img {
+    box-shadow: none;
+    margin-left: 10px;
+    margin-right: 60px;
+
+
+}
+
+
+
+
+#help {
+
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.content {
+    padding: 4% 10%;
+    background: #121212c8;
+}
+
+#help-heading {
+    color: white;
+    text-align: center;
+}
+
+#help-sub-text {
+    color: #cbcbcb;
+    text-align: center;
+}
+
+.help-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-item {
+    width: 25%;
+    background: rgba(3, 3, 3, 0.4);
+    padding: 3% 2%;
+    margin: 1%;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.help-item h4 {
+    color: white;
+    font-size: 20px;
+}
+
+.help-item p {
+    color: #cbcbcb;
 }
