@@ -131,3 +131,34 @@ h1 {
     border: none;
     border-bottom: 1px solid #DADADA;
 }
+
+#donate-plan {
+    padding: 5% 10%;
+}
+
+.item-padding {
+    padding: 2% 0%;
+}
+
+.donate-plan-item {
+    padding: 6% 2%;
+    width: 31%;
+    margin: 0% 1%;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+#food {
+    background: #4F9DA61A;
+    border: 1px solid #4F9DA65a;
+}
+
+#shelter {
+    background: #FF59591A;
+    border: 1px solid #ff59595a;
+}
+
+#education {
+    background: #FFF4D6;
+    border: 1px solid #dfaa1785;
+}
