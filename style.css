@@ -16,7 +16,7 @@ h1 {
 
     min-height: 700px;
     width: 100%;
-    background-image: url(images/donation5.jpg);
+    background-image: url(images/donation15.png);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -41,10 +41,41 @@ h1 {
 
 .link-button {
     text-decoration: none;
-    background-image: linear-gradient(rgb(30, 196, 168), rgb(62, 179, 173));
+    background-image: linear-gradient(orange, tomato);
     color: white;
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 5px;
 
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700px;
+}
+
+
+.donate-amount {
+    width: 80%;
+    margin: 80px auto;
+    text-align: center;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+
+
+}
+
+.grid-amount {
+
+    padding: 50px;
+    text-align: center;
+}
+
+.grid-fixed-amount {
+    background-color: gray;
+    border-color: tomato;
 }
